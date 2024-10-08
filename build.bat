@@ -11,3 +11,5 @@ SET OUT_NAME=MyGame
 @call scripts/cleanup.bat
 @call scripts/assemble.bat
 @call scripts/link.bat
+
+@echo Build successful, output to: %BUILD_DIR%\%OUT_NAME%.nes
